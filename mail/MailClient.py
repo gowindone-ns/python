@@ -1,10 +1,10 @@
 def send_email():
             import smtplib
 
-            gmail_user = "gowindone.ns@gmail.com"
+            gmail_user = "xyz@gmail.com"
             gmail_pwd = ""
-            FROM = 'gowindone.ns@gmail.com'
-            TO = ['gowindone@rediffmail.com','govindan.n@hcl.com'] #must be a list
+            FROM = 'xyz@gmail.com'
+            TO = ['xyz@rediffmail.com','xyz@hcl.com'] #must be a list
             SUBJECT = "Testing sending using gmail"
             TEXT = "Testing sending mail using gmail servers"
 
