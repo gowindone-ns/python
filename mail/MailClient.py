@@ -2,7 +2,7 @@ def send_email():
             import smtplib
 
             gmail_user = "xyz@gmail.com"
-            gmail_pwd = ""
+            gmail_pwd = "secret"
             FROM = 'xyz@gmail.com'
             TO = ['xyz@rediffmail.com','xyz@hcl.com'] #must be a list
             SUBJECT = "Testing sending using gmail"
